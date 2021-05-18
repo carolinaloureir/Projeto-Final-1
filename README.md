@@ -27,9 +27,31 @@ Estrutura:
 	Ano atendimento.csv— contém dados extraídos da Câmara Municipal de Águeda que nos fornece o número de atendimentos no posto Turismo do mesmo ao longo de 10 anos.
 
 API’s usados – notas técnicas:
+	
 	Esta base de dados utilizada neste reportório foi grande parte retirada de dados.gov.pt, no entanto utilizamos também dados fornecidos pela Camara Municipal de Agueda.
 	
 Dicionário de dados:
+
+	dormidas - Conjunto de dados de como a informação foi extraída, acerca dos dados de dormidas de 2019 (tabela)
+	dadosDormidas – Lista dos Dados de 2019 (tabela)
+	dados2019 – Conjunto de dados sobre as informações de dormidas no ano 2019 (tabela)
+	tamanho_tabela_1 – tamanho tabela dados 2019
+	rslt_dados2019 - Dados de dormidas em Portugal no ano de 2019 (tabela) 
+	dados – renomeação da tabela dados 2019 (tabela)
+	alojamento - alojamentos de 2019 de Águeda (tabela)
+	rslt_alojamentos – moradias que se enquadram na categoria motel (tabela)
+	“line” – visualização do ficheiro em formato de objeto 
+	atendimentos – atendimentos por ano no posto de Águeda (tabela)
+	media_ at –  media de atendimentos durante 10 anos. 
+	ultimos_anos – últimos dois anos de atendimentos (tabela)
+	“plt.show” – gráfico representante dos anos de atendimentos
+	ocupação- conjunto de dados relativos a taxas de ocupação (tabela)
+	soma_quartos- soma dos quartos ocupados
+	soma_cama- soma das camas ocupados
+	estrelas_3- especificações do hotel com 3 estrelas
+	d_ocp- descrição da tabela “ocupação” (tabela)
+	preços- conjunto de dados relativos aos preços (tabela)
+
 	
 Bibliografia:
 
