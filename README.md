@@ -21,7 +21,7 @@ Fundamentação dos dados:
 
 Estrutura:
 
-      Organização repositório:
+	Organização repositório:
 	Dormidas nº estadia.json— contém dados relativos ao número de estadias turísticas no ano de 2019.
 	alojamento2019.csv— contém dados relativos a alojamentos em 2019 na localidade de Águeda.
 	Ano atendimento.csv— contém dados extraídos da Câmara Municipal de Águeda que nos fornece o número de atendimentos no posto Turismo do mesmo ao longo de 10 anos.
@@ -55,7 +55,7 @@ Dicionário de dados:
 	
 Bibliografia:
 
-https://dados.gov.pt/pt/
-https://dados.gov.pt/pt/datasets/r/b9b406ab-bc80-448f-8c47-406f66b4e48a
-https://dados.gov.pt/pt/datasets/r/029f7761-d427-404a-a639-a3eb1c83ffd8
-https://ckan.sig.cm-agueda.pt/dataset/antendimentos-no-posto-de-turismo-de-agueda/resource/a2abb35b-62b1-4b9f-87b4-5a3a67558626
+	https://dados.gov.pt/pt/
+	https://dados.gov.pt/pt/datasets/r/b9b406ab-bc80-448f-8c47-406f66b4e48a
+	https://dados.gov.pt/pt/datasets/r/029f7761-d427-404a-a639-a3eb1c83ffd8
+	https://ckan.sig.cm-agueda.pt/dataset/antendimentos-no-posto-de-turismo-de-agueda/resource/a2abb35b-62b1-4b9f-87b4-5a3a67558626
