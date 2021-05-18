@@ -11,7 +11,7 @@ Aplicação do repositorio:
 
 	O projeto permite a recolha/exposição de vários dados nomeadamente:
 	
-Fundamentação dos dados-
+Fundamentação dos dados:
 
 	O projeto permite a recolha/exposição de vários dados nomeadamente:
 	A recolha de dados devidamente estruturados é crucial para o desenvolvimento do nosso projeto, no entanto grande parte dos dados encontrados tratam-se de dados com fraca qualidade e construídos indevidamente. 
