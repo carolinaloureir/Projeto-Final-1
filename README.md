@@ -22,12 +22,12 @@ Fundamentação dos dados:
 Estrutura:
 
       Organização repositório:
-Dormidas nº estadia.json— contém dados relativos ao número de estadias turísticas no ano de 2019.
-alojamento2019.csv— contém dados relativos a alojamentos em 2019 na localidade de Águeda.
-Ano atendimento.csv— contém dados extraídos da Câmara Municipal de Águeda que nos fornece o número de atendimentos no posto Turismo do mesmo ao longo de 10 anos.
+	Dormidas nº estadia.json— contém dados relativos ao número de estadias turísticas no ano de 2019.
+	alojamento2019.csv— contém dados relativos a alojamentos em 2019 na localidade de Águeda.
+	Ano atendimento.csv— contém dados extraídos da Câmara Municipal de Águeda que nos fornece o número de atendimentos no posto Turismo do mesmo ao longo de 10 anos.
 
 API’s usados – notas técnicas:
-
+	Esta base de dados utilizada neste reportório foi grande parte retirada de dados.gov.pt, no entanto utilizamos também dados fornecidos pela Camara Municipal de Agueda.
 	
 Dicionário de dados:
 	
