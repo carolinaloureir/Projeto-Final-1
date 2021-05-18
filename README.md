@@ -1,5 +1,5 @@
 Turismo em Portugal
-Ultima atualização- 15 de Maio de 2021
+Ultima atualização- 18 de Maio de 2021
 Contexto:
 	No âmbito da unidade curricular de Programação e Algoritmo II lecionada pelo docente Dr. João orvalho foi nos proposto a realização de um projecto final em que podemos explorar e adquirir novos conhecimentos. 
 	O contexto do nosso projeto aborda o tema do Turismo (particularmente em Portugal), uma área que devido á pandemia tem sofrido diversas alterações.
@@ -7,7 +7,12 @@ Contexto:
 Aplicação do repositorio:
 	O projeto permite a recolha/exposição de vários dados nomeadamente:
 	
-Fundamentação dos dados- (há parte)
+Fundamentação dos dados- 
+	O projeto permite a recolha/exposição de vários dados nomeadamente:
+	A recolha de dados devidamente estruturados é crucial para o desenvolvimento do nosso projeto, no entanto grande parte dos dados encontrados tratam-se de dados com fraca qualidade e construídos indevidamente. 
+Posto isto, vimo-nos a ser obrigadas a proceder a uma limpeza dos dados, sendo que estes estavam em mau estado, por exemplo palavras em campos que deveriam ser numéricos e organização por tabela dos dados.
+	No caso dos dados “teste.csv” estes vinham com uma construção de dados que era impossível de ser lida em jupiter, para solucionar o nosso problema passamos a criação de um CSV padrão com os dados que queríamos utilizar corretamente organizados.
+
 
 Estrutura:
       Organização repositório:
