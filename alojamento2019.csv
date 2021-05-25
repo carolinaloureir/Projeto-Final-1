@@ -1,0 +1,35 @@
+tipo,modalidade,categoria,nome,morada,site,e_mail,telefone,fax,freguesia
+Empreendimento turístico,Motel,-,Motel Alameda,"EN1, Cavada Nova, 3750-604 Macinhata do Vouga",http://www.alameda-hotel.com/pt-pt,hotelalameda@sapo.pt,234523402,234523449,Macinhata do Vouga
+Empreendimento turístico,Residencial,-,Residencial Celeste,"Rua Misericordia de Agueda 713, 3750-130 Agueda",www.residencialceleste.com,residencialceleste@hotmail.com,234602871,234602871,UF Águeda e Borralha
+Empreendimento turístico,Residencial,-,Residencial Castro,"Rua da Famel 295, Barrosinhas,ZI EN1 Norte, 3750 760 Trofa AGD",www.residencialcastro.pt,geral@residencialcastro.pt,234644356,234644993,"UF Trofa, Segadães e Lamas"
+Alojamento local,Moradia,-,Quinta Santa Maria do Monte de Alcobar,"Rua da Escola 120C, 3750-561  Macieira de Alcoba",-,antonio.amaro@ua.pt,,,UF Préstimo e Macieira Alcôba
+Empreendimento turístico,Hotel,4 estrelas,Hotel Conde de Águeda,"Rua Antonio Ferreira Sucena 7, 3750-121 Águeda",www.hotelcondedagueda.pt,geral@hotelcondedagueda.pt,234610390,234610399,UF Águeda e Borralha
+Empreendimento turístico,Hotel,3 estrelas,Hotel Estalagem da Pateira,"Rua da Pateira 84, 3750-439 Fermentelos",www.pateira.com,info@pateira.com,234721219,234722181,Fermentelos
+Empreendimento turístico,Motel,-,Motel Primavera,"Rua do Vale do Grou 1243, Vale do Grou, 3750- 064 Aguada de Cima",-,-,234666237,234666247,Aguada de Cima
+Empreendimento turístico,Pensão,-,Pensão Parreira,"Rua do Passadouro 6 , Passadouro, 3750-035 Aguada de Baixo",-,-,234667765,,UF Barrô e Aguada de Baixo
+Empreendimento turístico,Parque de Campismo,-,Parque de Campismo do Rossio,"Largo Hildebrando Carlos Veiga 168, Aguadela, 3750-031 Aguada de Baixo",-,cccaguadadebaixo@sapo.pt,234666327,234741479,UF Barrô e Aguada de Baixo
+Empreendimento turístico,Residencial,-,Residencial Trindade,"Rua da Famel 28, ZI EN1 Norte, 3750-760 Trofa AGD",www.residencialtrindade.com,geral@residencialotrindade.com,234645830,234645830,"UF Trofa, Segadães e Lamas"
+Empreendimento turístico,Hotel,4 estrelas,Quinta do Louredo Hotel,"Rua Direita 1549,  Paradela, 3750-405 Espinhel",www.quintadolouredo.com,geral@quintadolouredo.com,234690070,234690079,UF Recardaes e Espinhel
+Alojamento local,Moradia,-,Casa d' Alcafaz,"Rua da Portela 35, Alcafaz, 3750-011 Agadão",-,adelaide.1967@gmail.com,965659380,,"UF Belazaima, Castanh e Agadão"
+Empreendimento turístico,Casa de Campo,-,Quinta do Salgueiro - Casas do Xisto,"Rua Fundo do Lugar 24, Salgueiro, 3750-682 Préstimo",www.casasdoespigueiro.pt,casasdoespigueiro@gmail.com,936265546,,UF Préstimo e Macieira Alcôba
+Alojamento local,Moradia,-,Casa do Pateo,"Rau José Varanda 350, Lourizela, 3750-677 Préstimo",http://www.casadopateo.pt/,info@casadopateo.pt,911852750,,UF Préstimo e Macieira Alcôba
+Alojamento local,Estabelecimento de hospedagem - Hostel,-,XPT Águeda,"Rua Vasco da Gama 37, 3750-167 Águeda",www.xpt.pt,geral@xpt.pt,234101973,,UF Águeda e Borralha
+Alojamento local,Estabelecimento de hospedagem - Hostel,-,Agueda Hostel & Friends,"Rua José Maria Veloso 8, 3750-156 Águeda",http://aguedahostel.pt/,geral@aguedahostel.pt,234136620,,UF Águeda e Borralha
+Alojamento local,Moradia,-,Quinta Pedro Cruz,"Rua Prof Anibal ""O Mestre"" 11, 3750-351 Barrô AGD",http://www.quintavaledocruz.com,geral@quintavaledocruz.com,933093099,,UF Barrô e Aguada de Baixo
+Alojamento local,Moradia,-,Casa do Vale da Vinha,"Rua José Varanda 373, Lourizela, 3750-677 Préstimo",https://casa-do-vale-da-vinha.webnode.pt/,luizaminerva@ua.pt,919354023,,UF Préstimo e Macieira Alcôba
+Alojamento local,Moradia,-,Casa Sulo,"Rua do Cabeço 52, Alombada, 3750-581 Macinhata do Vouga",http://www.casasulo.com/,sue@casasulo.com,,,Macinhata do Vouga
+Alojamento local,Moradia,-,Chalet de Madeira,"Rua da Gandarinha 246, Alagoa, 3750-301 Águeda",-,casasdeferias.victor.angela@gmail.com,965168855,,UF Águeda e Borralha
+Alojamento local,Moradia,-,Inspired Vouga AJaccommodation,"Rua das Figuras Populares 29, Aguieira, 3750-882 Valongo do Vouga",-,ajaccommodation@gmail.com,938601604,,Valongo do Vouga
+Alojamento local,Moradia,-,Quinta da Mesa,"Rua da Capela 609, Mesa, 3750-594 Macinhata do Vouga",https://pt-pt.facebook.com/quintadamesa/,vasco.quinteiro@gmail.com,962357567,,Macinhata do Vouga
+Alojamento local,Moradia,,Casa do Celeiro de Dr Eduardo Santhiago,"Rua Dr Eduardo Santiagio 131, Segadães",,emiranda@mail.telepac.pt,,,"UF Trofa, Segadães e Lamas"
+Alojamento local,Apartamento, - ,Bloco 3 Alojamento Local,"Avenida do Emigrante 981, BL 3 2 DTO, Ninho d Águia, 3750-313 Águeda",,geral.filipe@gmail.com,,,UF Águeda e Borralha
+Alojamento local,Moradia, -,Quinta do Cruz,"Rua do Afurado 1152, 3750 Águeda",,,910923390,,UF Águeda e Borralha
+Empreendimento turístico,Hotel,1 estrela,HMB Hotels,"Rua da Fonte do Roque 1, 3750-435 Fermentelos",-,reservas@hmbhotels.pt,234728072,,Fermentelos
+Alojamento local,Moradia,-,Casa do Tear,"Rua Principal 500, 3750-561 Macieira de Alcôba",www.facebook.com/casatear.macieiraalcoba,casa.tear@gmail.com,963468854,,UF Préstimo e Macieira Alcôba
+Alojamento local,Moradia,,Monte d' Alcobaar - Casa das Beiras,"Rua de S Domingos 298, Urgueira, 3750-562 Macieira de Alcôba",,pedro@pedroferreira.com.pt,,,UF Préstimo e Macieira Alcôba
+Alojamento local,Quartos,,Blessed Guesthouse,"Urbanização Quinta da Borralha 594, 3 ESQ, 3750-874 Borralha",,donizetealves83@gmail.com,,,UF Águeda e Borralha
+Alojamento local,Moradia,,Monte d' Alcobaar - Casa de Altar,"Travessa do Quintal 19, Urgueira, 3750-562 Macieira de Alcôba",,,,,UF Préstimo e Macieira Alcôba
+Alojamento local,Moradia, - ,Cantinho do Préstimo,"Rua da Almunha 245, 3750- Préstimo",,carlasilva550@hotmail.com,913002928,,UF Préstimo e Macieira Alcôba
+Alojamento local,Moradia,,Casa Magnólia,"Rua da Telha 51, Carvoeiro, 3750-603 Macinhata do Vouga",,gabrielangelicoalves@gmail.com,,,Macinhata do Vouga
+Alojamento local,Moradia,,Monte d' Alcobaar - Casa Sra da Guia,"Rua de S Domingos 246, Urgueira, 3750-562 Macieira de Alcôba",,,,,UF Préstimo e Macieira Alcôba
+Alojamento local,Moradia,,Monte d' Alcobaar - Casa de S Domingos,"Rua de S Domingos 204, Urgueira, 3750-562 Macieira de Alcôba",,,,,UF Préstimo e Macieira Alcôba
