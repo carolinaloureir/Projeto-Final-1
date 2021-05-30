@@ -2,7 +2,7 @@
 
 ![turismo-7](https://user-images.githubusercontent.com/84399844/119206661-aec46f00-ba93-11eb-924c-5f494137103e.png)
 
-> 📅  Ultima atualização - 18 de Maio de 2021
+> 📅  Ultima atualização - 30 de Maio de 2021
 ## 🗒️ Contexto
 No âmbito da unidade curricular Programação e Algoritmos II do 1.º ano do curso de Licenciatura de Comunicação e Design Multimédia, 2º semestre, sob orientação do docente João Orvalho, foi-nos solicitado a elaboração de um trabalho.
 O contexto do nosso projeto aborda o tema do Turismo (particularmente em Portugal), uma área que devido á pandemia tem sofrido diversas alterações.
@@ -10,49 +10,52 @@ Com a composição deste projeto final podemos explorar e adquirir novos conheci
 
 ## ❔  Aplicação do repositorio
 
-O projeto permite a recolha/exposição de vários dados nomeadamente:
+Dormidas nº estadia.json:
+   
+   	Aceder ao tamanho da tabela de dados de 2019
+    Renomear colunas e mostrar colunas importantes
+    Quantidade de posições com valores em falta
+    Eliminar colunas com dados em falta
+    Aceder aos dados que pertencem a Portugal no ano de 2019
+    Eliminar linhas com dados em falta
 
-Como ter a noção da quantidade de dados de 2019?
+alojamentos2019.cvs:
+   
+   	Total de informação em falta e posições em que se encontram 
+   	Ordenação por ordem alfabética dos nomes dos alojamentos 
+   	Identificar as moradias que se enquadram na categoria de motel
+ 	Localização do motel Alameda
 
-Como aceder ao tamanho da tabela de dados de 2019?
+Ano atendimento.csv:
+   
+   	Visualização do ficheiro como objeto
+    Total de atendimentos durante 10 anos
+    Média de atendimentos durante 10 anos
+    Últimos dois anos de atendimentos
+    Gráfico representando atendimentos durante 10 anos
 
-Como aceder aos dados que pertencem a Portugal no ano de 2019?
+list_Ocupação.json;:
+    
+    Substituição dos valores no nulos por zero 
+    Soma do número de quartos/camas ocupados
+    Especificações do hotel com três estrelas
+    Descrição da tabela "Ocupação“
 
-Como aceder aos dados sobre os alojamentos de 2019 em Águeda?
+preços_1:
+   
+   	Gráfico representando diferença de preços entre lazer e negócio
+    Gráfico global
+    Gráfico total de todos os dados
 
-Identificar a quais moradias se enquadram na categoria de motel?
+dataset-lugares-publicos-lugares-turisticos.csv:
+   
+   	Renomeação das colunas das coordenadas
+    Eliminar linhas com dados em falta
+    Ordenar de forma descrescente todos os dados
+    Transformar os valores em strings
+    Transformar colunas em valores strings 
+    Gráfico de coordenadas
 
-Qual o número de atendimentos por ano no posto de Águeda?
-
-Qual a média de atendimento durante 10 anos?
-
-Como aceder aos últimos 2 anos de atendimento?
-
-Como aceder ao conjunto de dados relativos à taxa de ocupação?
-
-Qual a soma do número de quartos ocupados?
-
-Qual a soma do número de camas ocupadas?
-
-Como aceder as especificações do hotel com 3 estrelas?
-
- Como aceder ao conjunto de dados relativos aos preços?
-
- Como aceder á tabela com dados que não apresentavam qualidade?
-
- Como desenvolver um gráfico relativamente á diferença de preços entre Lazer e Negócio?
-
- Como desenvolver um gráfico total de todos os dados?
-
- Como eliminar linhas com dados em falta?
-
- Como ordenar de forma descendente os dados?
-
- Como transformar os valores em strings?
-
- Como transformar colunas em valores strings?
-
- Como desenvolver um gráfico de coordenadas?
 
 
  ## 📖  Fundamentação dos dados
@@ -88,6 +91,7 @@ Departamo-nos com a falta de dados para a execução de exercício relativos á 
  ## 📉  API’s usados – notas técnicas
  Esta base de dados utilizada neste reportório foi grande parte retirada de dados.gov.pt, no entanto utilizamos também dados fornecidos pela Camara Municipal de Agueda.
 ## 📕  Dicionário de dados
+### Dormidas nº estadia.json
 <table>
 	<tr>
 		<td>Nome da coluna</td>
@@ -97,156 +101,248 @@ Departamo-nos com a falta de dados para a execução de exercício relativos á 
 	<tr>
 		<td>dormidas</td>
 		<td>Conjunto de dados de como a informação foi extraída, acerca dos dados de dormidas de 2019</td>
-		<td>Inteiros</td>
+		<td>pandas.core.frame.DataFrame</td>
 	</tr>
- 	<tr>	
- 		<td>dadosDormidas</td>
- 		<td>Lista dos Dados de 2019</td>
- 	<tr>	
- 		<td>dadosDormidas</td>
- 		<td>Lista dos Dados de 2019</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>dados2019</td>
- 		<td>Conjunto de dados sobre as informações de dormidas no ano 2019</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>tamanho_tabela_1</td>
- 		<td>tamanho tabela dados 2019</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>rslt_dados2019</td>
- 		<td>Dados de dormidas em Portugal no ano de 2019</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>dados</td>
- 		<td>renomeação da tabela dados 2019</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>alojamento</td>
- 		<td>alojamentos de 2019 de Águeda</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>rslt_alojamentos</td>
- 		<td>moradias que se enquadram na categoria motel</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>“line”</td>
- 		<td>visualização do ficheiro em formato de objeto</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>atendimentos</td>
- 		<td>atendimentos por ano no posto de Águeda</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>media_ at</td>
- 		<td>media de atendimentos durante 10 anos</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>ultimos_anos</td>
- 		<td>últimos dois anos de atendimentos</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>“plt.show”</td>
- 		<td>gráfico representante dos anos de atendimentos</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>ocupação</td>
- 		<td>conjunto de dados relativos a taxas de ocupação</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>soma_quartos</td>
- 		<td>soma dos quartos ocupados</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>soma_cama</td>
- 		<td>soma das camas ocupados</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>estrelas_3</td>
- 		<td>especificações do hotel com 3 estrelas</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>d_ocp</td>
- 		<td>descrição da tabela “ocupação”</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>preços</td>
- 		<td>conjunto de dados relativos aos preços</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>pgra_preços</td>
- 		<td>Diferença de preços entre Lazer e Negócio</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>global_1</td>
- 		<td>Diferença global de Lazer e Negócio</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>total</td>
- 		<td>Total de todos os dados</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>renomeação_at</td>
- 		<td>Renomeação das colunas devido a serem nomes estrangeiros</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>coordenadas</td>
- 		<td>Renomeação das colunas das coordenadas</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>c_sl</td>
- 		<td>Elimina as linhas com falta de dados nas colunas descritas</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>descendente</td>
- 		<td>Ordenar de forma descendente os dados</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>string_value_1</td>
- 		<td>Valores em strings</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>imgplot</td>
- 		<td>Localização do Motel Alameda</td>
- 		<td>Inteiros</td>
- 	</tr>
- 	<tr>
- 		<td>df</td>
- 		<td>colunas em  valores strings</td>
- 		<td>Inteiros</td>
-
-
+	<tr>
+		<td>dadosDormidas</td>
+		<td>Lista dos Dados de 2019</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>dados2019</td>
+		<td>Conjunto de dados sobre as informações de dormidas no ano 2019</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>tamanho_tabela_1</td>
+		<td>Tamanho tabela dados 2019</td>
+		<td>Inteiro</td>
+	</tr>
+	<tr>
+		<td>dados</td>
+		<td>Renomeação das colunas</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>dados_1</td>
+		<td>Apresenta colunas importantes</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>sem_valores</td>
+		<td>Total de dados em falta em dada coluna</td>
+		<td>pandas.core.series.Series</td>
+	</tr>
+	<tr>
+		<td>result_sc</td>
+		<td>Eliminar colunas com dados em falta</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>rslt_dados2019</td>
+		<td>Dados de dormidas em Portugal no ano de 2019</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>result_sl</td>
+		<td>Eliminar linhas com valores em falta</td>
+		<td>pandas.core.frame.DataFrame</td>
  </table>
+ 
+ 
+ ### Alojamentos2019.cvs
+ <table>
+	<tr>
+		<td>Nome da coluna</td>
+		<td>Significado</td>
+		<td>Possiveis valores</td>
+	</tr>
+	<tr>
+		<td>alojamento</td>
+		<td>Alojamentos de 2019 de Águeda</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>al_sv</td>
+		<td>Soma de todos os valores em falta</td>
+		<td>Inteiro</td>
+	</tr>
+	<tr>
+		<td>al_sv_1</td>
+		<td>Localização do dados em falta</td>
+		<td>Gráfico</td>
+	</tr>
+	<tr>
+		<td>ordem</td>
+		<td>Ordenar nomes dos alojamentos por ordem alfabética</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>rslt_alojamentos</td>
+		<td>Moradias que se enquadram na categoria motel</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>imgplot</td>
+		<td>Moradias que se enquadram na categoria motel</td>
+		<td>matplotlib.image.AxesImage</td>
+ </table>
+ 
+### Ano atendimento.csv
+ <table>
+	<tr>
+		<td>Nome da coluna</td>
+		<td>Significado</td>
+		<td>Possiveis valores</td>
+	</tr>
+	<tr>
+		<td>“line”</td>
+		<td>Visualização do ficheiro em formato de objeto</td>
+		<td>String</td>
+	</tr>
+	<tr>
+		<td>atendimentos</td>
+		<td>Atendimentos por ano no posto de Águeda</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>at_10</td>
+		<td>Soma do 10 anos de atendimentos</td>
+		<td>Inteiro</td>
+	</tr>
+	<tr>
+		<td>media_ at</td>
+		<td>Média de atendimentos durante 10 anos</td>
+		<td>Inteiro</td>
+	</tr>
+	<tr>
+		<td>ultimos_anos</td>
+		<td>Últimos dois anos de atendimentos</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>g_at</td>
+		<td>Gráfico representante dos anos de atendimentos</td>
+		<td>Gráfico</td>
+ </table>
+
+### list_Ocupação.json
+ <table>
+	<tr>
+		<td>Nome da coluna</td>
+		<td>Significado</td>
+		<td>Possiveis valores</td>
+	</tr>
+	<tr>
+		<td>ocupação</td>
+		<td>Conjunto de dados relativos a taxas de ocupação</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>categoria</td>
+		<td>Substituição dos valores nulos por 0</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>soma_quartos</td>
+		<td>Soma dos quartos ocupados</td>
+		<td>Inteiro</td>
+	</tr>
+	<tr>
+		<td>soma_camas</td>
+		<td>Soma dos camas ocupados</td>
+		<td>Inteiro</td>
+	</tr>
+	<tr>
+		<td>estrelas_3</td>
+		<td>Especificações do hotel com 3 estrelas</td>
+		<td>pandas.core.series.Series</td>
+	</tr>
+	<tr>
+		<td>d_ocp</td>
+		<td>Descrição da tabela “ocupação”</td>
+		<td>pandas.core.frame.DataFrame</td>
+ </table>
+ 
+
+### preços_1
+ <table>
+	<tr>
+		<td>Nome da coluna</td>
+		<td>Significado</td>
+		<td>Possiveis valores</td>
+	</tr>
+	<tr>
+		<td>preços_1</td>
+		<td>Conjunto de dados relativos aos preços</td>
+		<td>Lista</td>
+	</tr>
+	<tr>
+		<td>gra_preços</td>
+		<td>Diferença de preços entre Lazer e Negócio</td>
+		<td>Gráfico</td>
+	</tr>
+	<tr>
+		<td>global_1</td>
+		<td>Diferença global de Lazer e Negócio</td>
+		<td>Gráfico</td>
+	</tr>
+	<tr>
+		<td>total</td>
+		<td>Total de todos os dados</td>
+		<td>Gráfico</td>
+ </table>
+ 
+### dataset-lugares-publicos-lugares-turisticos.csv
+ <table>
+	<tr>
+		<td>Nome da coluna</td>
+		<td>Significado</td>
+		<td>Possiveis valores</td>
+	</tr>
+	<tr>
+		<td>renomeação_at</td>
+		<td>Renomeação das colunas devido a serem nomes estrangeiros</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>coordenadas</td>
+		<td>Colunas das coordenadas </td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>c_sl</td>
+		<td>Elimina as linhas com falta de dados nas colunas descritas</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>descendente</td>
+		<td>Ordenar de forma descendente os dados</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>string_value_1</td>
+		<td>Transformar valores em strings</td>
+		<td>String</td>
+	</tr>
+	<tr>
+		<td>df</td>
+		<td>Transformar colunas em valores strings</td>
+		<td>pandas.core.frame.DataFrame</td>
+	</tr>
+	<tr>
+		<td>coordenada_1</td>
+		<td>Transformar colunas em valores strings</td>
+		<td>Gráfico</td>
+ </table>
+
+
 
 ## 🔎  Bibliografia
 https://dados.gov.pt/pt/
+
 https://dados.gov.pt/pt/datasets/r/b9b406ab-bc80-448f-8c47-406f66b4e48a
+
 https://dados.gov.pt/pt/datasets/r/029f7761-d427-404a-a639-a3eb1c83ffd8
+
 https://ckan.sig.cm-agueda.pt/dataset/antendimentos-no-posto-de-turismo-de-agueda/resource/a2abb35b-62b1-4b9f-87b4-5a3a67558626
